@@ -1,17 +1,144 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.Api\\Backend.API.csproj": {}
+    "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.API\\Backend.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.Api\\Backend.API.csproj": {
+    "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.API\\Backend.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.Api\\Backend.API.csproj",
+        "projectUniqueName": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.API\\Backend.API.csproj",
         "projectName": "Backend.API",
-        "projectPath": "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.Api\\Backend.API.csproj",
+        "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.API\\Backend.API.csproj",
         "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.Api\\obj\\",
+        "outputPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Ioc\\Backend.Infra.Ioc.csproj": {
+                "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Ioc\\Backend.Infra.Ioc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Application\\Backend.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Application\\Backend.Application.csproj",
+        "projectName": "Backend.Application",
+        "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Application\\Backend.Application.csproj",
+        "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
+                "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Domain\\Backend.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Domain\\Backend.Domain.csproj",
+        "projectName": "Backend.Domain",
+        "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Domain\\Backend.Domain.csproj",
+        "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,12 +164,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -55,9 +176,126 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Data\\Backend.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Data\\Backend.Infra.Data.csproj",
+        "projectName": "Backend.Infra.Data",
+        "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Data\\Backend.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
+                "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Domain\\Backend.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Ioc\\Backend.Infra.Ioc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Ioc\\Backend.Infra.Ioc.csproj",
+        "projectName": "Backend.Infra.Ioc",
+        "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Ioc\\Backend.Infra.Ioc.csproj",
+        "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Ioc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Application\\Backend.Application.csproj": {
+                "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Application\\Backend.Application.csproj"
+              },
+              "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
+                "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Domain\\Backend.Domain.csproj"
+              },
+              "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Data\\Backend.Infra.Data.csproj": {
+                "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Data\\Backend.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

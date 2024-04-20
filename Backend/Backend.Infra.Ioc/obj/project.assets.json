@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Backend.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Backend.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Backend.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Application.dll": {}
+        }
+      },
+      "Backend.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Backend.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Domain.dll": {}
+        }
+      },
+      "Backend.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Backend.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Backend.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Infra.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Backend.Application/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Application/Backend.Application.csproj",
+      "msbuildProject": "../Backend.Application/Backend.Application.csproj"
+    },
+    "Backend.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Domain/Backend.Domain.csproj",
+      "msbuildProject": "../Backend.Domain/Backend.Domain.csproj"
+    },
+    "Backend.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Infra.Data/Backend.Infra.Data.csproj",
+      "msbuildProject": "../Backend.Infra.Data/Backend.Infra.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Backend.Application >= 1.0.0",
+      "Backend.Domain >= 1.0.0",
+      "Backend.Infra.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\wende\\.nuget\\packages\\": {}
@@ -13,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.Infra.Ioc\\Backend.Infra.Ioc.csproj",
+      "projectUniqueName": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Ioc\\Backend.Infra.Ioc.csproj",
       "projectName": "Backend.Infra.Ioc",
-      "projectPath": "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.Infra.Ioc\\Backend.Infra.Ioc.csproj",
+      "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Ioc\\Backend.Infra.Ioc.csproj",
       "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.Infra.Ioc\\obj\\",
+      "outputPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Ioc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -31,7 +88,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Application\\Backend.Application.csproj": {
+              "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Application\\Backend.Application.csproj"
+            },
+            "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
+              "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Domain\\Backend.Domain.csproj"
+            },
+            "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Data\\Backend.Infra.Data.csproj": {
+              "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Data\\Backend.Infra.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

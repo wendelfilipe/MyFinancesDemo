@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zb4GcPrgy514x0/Kqo8Pac9j+nGagpqqV4NiNRf0iOfY5DAYkx6aDppI8TBnbFWypJMkF/ZARtvVVlRUL2edTw==",
+  "dgSpecHash": "T4W43PTV+jSQMMoOdt2fK5ubC6+SM27SNdJD10Ph/YSWWKicETkaPOA2HSkbhNVP0fW5/Zq/NARJ9WhV6bEVOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.Infra.Ioc\\Backend.Infra.Ioc.csproj",
+  "projectFilePath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Ioc\\Backend.Infra.Ioc.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

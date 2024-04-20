@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DyrvC4BFbNacluGMWGQj7Jzs5FYIqYYUT47pzt8bq4WxyYqaP7sPCdwoQkeYHUiXxUVbPn0WN/VBr/Ei5m1SAA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.Api\\Backend.API.csproj",
+  "dgSpecHash": "foXGi9/AIlHM9arH80VJxI+Gz0PhwuB7KZAPLh8zPfEOVPkzKouv9iH9qHZU5VB3P5bhUXJNFQ13IsGtUK74lQ==",
+  "success": false,
+  "projectFilePath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.API\\Backend.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\wende\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.4\\microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
     "C:\\Users\\wende\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\wende\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\wende\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
@@ -11,5 +12,15 @@
     "C:\\Users\\wende\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\wende\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "O pacote Microsoft.EntityFrameworkCore 8.0.4 não é compatível com net6.0 (.NETCoreApp,Version=v6.0). O pacote Microsoft.EntityFrameworkCore 8.0.4 dá suporte a: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

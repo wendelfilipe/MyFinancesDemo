@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Microsoft.EntityFrameworkCore/8.0.4": {
+        "type": "package"
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -88,10 +91,77 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Backend.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Backend.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Backend.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Application.dll": {}
+        }
+      },
+      "Backend.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Backend.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Domain.dll": {}
+        }
+      },
+      "Backend.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Backend.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Backend.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Infra.Data.dll": {}
+        }
+      },
+      "Backend.Infra.Ioc/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Backend.Application": "1.0.0",
+          "Backend.Domain": "1.0.0",
+          "Backend.Infra.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Backend.Infra.Ioc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Infra.Ioc.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Microsoft.EntityFrameworkCore/8.0.4": {
+      "sha512": "/kyu9pXuxQvhg8RO/oN5Q5Og7cDIVvZtrt1z48rX7Yido+zEGkUkp3/Bjd9u45N2uuPPF8mn2pKDlAewCvv3/Q==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore/8.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.dll",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.xml",
+        "microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.nuspec"
+      ]
+    },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "sha512": "Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
       "type": "package",
@@ -429,10 +499,32 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Backend.Application/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Application/Backend.Application.csproj",
+      "msbuildProject": "../Backend.Application/Backend.Application.csproj"
+    },
+    "Backend.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Domain/Backend.Domain.csproj",
+      "msbuildProject": "../Backend.Domain/Backend.Domain.csproj"
+    },
+    "Backend.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Infra.Data/Backend.Infra.Data.csproj",
+      "msbuildProject": "../Backend.Infra.Data/Backend.Infra.Data.csproj"
+    },
+    "Backend.Infra.Ioc/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Infra.Ioc/Backend.Infra.Ioc.csproj",
+      "msbuildProject": "../Backend.Infra.Ioc/Backend.Infra.Ioc.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Backend.Infra.Ioc >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 8.0.4",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -442,11 +534,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.API\\Backend.API.csproj",
+      "projectUniqueName": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.API\\Backend.API.csproj",
       "projectName": "Backend.API",
-      "projectPath": "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.API\\Backend.API.csproj",
+      "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.API\\Backend.API.csproj",
       "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.API\\obj\\",
+      "outputPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -460,7 +552,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Ioc\\Backend.Infra.Ioc.csproj": {
+              "projectPath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Ioc\\Backend.Infra.Ioc.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -473,6 +569,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.4, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.5.0, )"
@@ -500,5 +600,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "O pacote Microsoft.EntityFrameworkCore 8.0.4 não é compatível com net6.0 (.NETCoreApp,Version=v6.0). O pacote Microsoft.EntityFrameworkCore 8.0.4 dá suporte a: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
