@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lrzt+I7T7ZQMW8fDMkv9qZucOWnGfm5i1LeL+I24LFfpddtv73UuNklDi1Rs9CN//dzOifNNPzAsENx1bvHorA==",
+  "dgSpecHash": "qjq16jJFl0eyEl4jkmKN2Z7b0hjdarfL6aGN5tcYfnl97n0vWkgcOWbEvrlCFkw8AmEk7tYLXeOWcqpiP8rLIg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\wende\\Documents\\Projetos\\MyFinancesDemo\\Backend\\Backend.Infra.Data\\Backend.Infra.Data.csproj",
+  "projectFilePath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Data/Backend.Infra.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

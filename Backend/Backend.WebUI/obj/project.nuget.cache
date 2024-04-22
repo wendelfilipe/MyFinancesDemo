@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+pFnDNWXZlUJIkcaFZWmOhcnppHZwtkxpMjAX9vwINo2MxJ4bqpajmvczsDQc801U3gkWsxt+Phf28GVu8EkrQ==",
+  "dgSpecHash": "5UATB02QEL3m/y7Tk6cAoODQZf+3oQ9WYfhMc3zAgXsPDtXReOi61kXAzaxOaKVlzToWx3QyWBSrp7XYcol99Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wende\\Documents\\Projetos\\MyFinancesAtualizado\\Backend\\Backend.WebUI\\Backend.WebUI.csproj",
+  "projectFilePath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.WebUI/Backend.WebUI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
