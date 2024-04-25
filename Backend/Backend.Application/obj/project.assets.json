@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Backend.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Backend.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Backend.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Domain/Backend.Domain.csproj",
+      "msbuildProject": "../Backend.Domain/Backend.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Backend.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/wendel/.nuget/packages/": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Application/Backend.Application.csproj",
+      "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Application/Backend.Application.csproj",
       "projectName": "Backend.Application",
-      "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Application/Backend.Application.csproj",
+      "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Application/Backend.Application.csproj",
       "packagesPath": "/home/wendel/.nuget/packages/",
-      "outputPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Application/obj/",
+      "outputPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/wendel/.nuget/NuGet/NuGet.Config"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/Backend.Domain.csproj": {
+              "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/Backend.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

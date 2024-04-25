@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YtWydJPQHIokiM+afTAtaM3OThVO7ow/x18wlLRj/kRMCI0C0r4sfjoGvOUiH/CElHOCe8CRtUjYBauK1qXm4A==",
+  "dgSpecHash": "6Ejd0DvTulnK5IhBxbbTahi4mgZ6ABZ5eJU7kfULhJbpDI7FIb/7wKDAGfi4Ogbh/YPt85pR3MWSNsnyEbi8tQ==",
   "success": true,
-  "projectFilePath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Application/Backend.Application.csproj",
+  "projectFilePath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Application/Backend.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Backend.Application
-build_property.ProjectDir = /home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Application/
+build_property.ProjectDir = /home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Application/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
