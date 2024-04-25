@@ -2305,11 +2305,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.WebUI/Backend.WebUI.csproj",
+      "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.WebUI/Backend.WebUI.csproj",
       "projectName": "Backend.WebUI",
-      "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.WebUI/Backend.WebUI.csproj",
+      "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.WebUI/Backend.WebUI.csproj",
       "packagesPath": "/home/wendel/.nuget/packages/",
-      "outputPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.WebUI/obj/",
+      "outputPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.WebUI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/wendel/.nuget/NuGet/NuGet.Config"
@@ -2324,8 +2324,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj": {
-              "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj"
+            "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj": {
+              "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj"
             }
           }
         }

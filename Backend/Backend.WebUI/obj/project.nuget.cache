@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z5T1sSwkqQJ+/GaAtfdvitK8ZPquPt3vdT2oJOx/rGIjmqb4raHmBZz2ToL2ama4DFxLoKUT5CBKqlnyf/8GVA==",
+  "dgSpecHash": "YotNOID/sxJggryFZ9o9FQ0d9NOvS+Q15X73jgINUzycJRk2fOssmfLfHtJiUkJf9p/Q5nbVzZKWOhB67o7Fuw==",
   "success": true,
-  "projectFilePath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.WebUI/Backend.WebUI.csproj",
+  "projectFilePath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.WebUI/Backend.WebUI.csproj",
   "expectedPackageFiles": [
     "/home/wendel/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

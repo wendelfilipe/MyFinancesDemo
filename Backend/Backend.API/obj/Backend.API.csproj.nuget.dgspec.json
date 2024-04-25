@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.API/Backend.API.csproj": {}
+    "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.API/Backend.API.csproj": {}
   },
   "projects": {
-    "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.API/Backend.API.csproj": {
+    "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.API/Backend.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.API/Backend.API.csproj",
+        "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.API/Backend.API.csproj",
         "projectName": "Backend.API",
-        "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.API/Backend.API.csproj",
+        "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.API/Backend.API.csproj",
         "packagesPath": "/home/wendel/.nuget/packages/",
-        "outputPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.API/obj/",
+        "outputPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wendel/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj": {
-                "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj"
+              "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj": {
+                "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Application/Backend.Application.csproj": {
+    "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Application/Backend.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Application/Backend.Application.csproj",
+        "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Application/Backend.Application.csproj",
         "projectName": "Backend.Application",
-        "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Application/Backend.Application.csproj",
+        "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Application/Backend.Application.csproj",
         "packagesPath": "/home/wendel/.nuget/packages/",
-        "outputPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Application/obj/",
+        "outputPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wendel/.nuget/NuGet/NuGet.Config"
@@ -101,8 +101,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain/Backend.Domain.csproj": {
-                "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain/Backend.Domain.csproj"
+              "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/Backend.Domain.csproj": {
+                "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/Backend.Domain.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain/Backend.Domain.csproj": {
+    "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/Backend.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain/Backend.Domain.csproj",
+        "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/Backend.Domain.csproj",
         "projectName": "Backend.Domain",
-        "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain/Backend.Domain.csproj",
+        "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/Backend.Domain.csproj",
         "packagesPath": "/home/wendel/.nuget/packages/",
-        "outputPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain/obj/",
+        "outputPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wendel/.nuget/NuGet/NuGet.Config"
@@ -199,14 +199,14 @@
         }
       }
     },
-    "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Data/Backend.Infra.Data.csproj": {
+    "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Data/Backend.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Data/Backend.Infra.Data.csproj",
+        "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Data/Backend.Infra.Data.csproj",
         "projectName": "Backend.Infra.Data",
-        "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Data/Backend.Infra.Data.csproj",
+        "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Data/Backend.Infra.Data.csproj",
         "packagesPath": "/home/wendel/.nuget/packages/",
-        "outputPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Data/obj/",
+        "outputPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wendel/.nuget/NuGet/NuGet.Config"
@@ -221,8 +221,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain/Backend.Domain.csproj": {
-                "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain/Backend.Domain.csproj"
+              "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/Backend.Domain.csproj": {
+                "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/Backend.Domain.csproj"
               }
             }
           }
@@ -275,14 +275,14 @@
         }
       }
     },
-    "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj": {
+    "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj",
+        "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj",
         "projectName": "Backend.Infra.Ioc",
-        "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj",
+        "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Ioc/Backend.Infra.Ioc.csproj",
         "packagesPath": "/home/wendel/.nuget/packages/",
-        "outputPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Ioc/obj/",
+        "outputPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Ioc/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wendel/.nuget/NuGet/NuGet.Config"
@@ -297,14 +297,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Application/Backend.Application.csproj": {
-                "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Application/Backend.Application.csproj"
+              "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Application/Backend.Application.csproj": {
+                "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Application/Backend.Application.csproj"
               },
-              "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain/Backend.Domain.csproj": {
-                "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain/Backend.Domain.csproj"
+              "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/Backend.Domain.csproj": {
+                "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/Backend.Domain.csproj"
               },
-              "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Data/Backend.Infra.Data.csproj": {
-                "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Infra.Data/Backend.Infra.Data.csproj"
+              "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Data/Backend.Infra.Data.csproj": {
+                "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Infra.Data/Backend.Infra.Data.csproj"
               }
             }
           }

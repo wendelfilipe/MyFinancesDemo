@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NM7wq92sTTxSLWjCb8keULp4orfDqh0n+ox/Qf3TSYDAkwEZOrdGIDmLaCN/UhUDXBVF4Dhx5Q8uUyLaaa57cQ==",
+  "dgSpecHash": "4JJku5OsT1uL8eXPzlHOlp98xGaQfal8JhdSPnOXcnhmtgAm/g+Op5pAfu5wQNzwkzGBRrvuor8mi15gwxadIg==",
   "success": true,
-  "projectFilePath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.API/Backend.API.csproj",
+  "projectFilePath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.API/Backend.API.csproj",
   "expectedPackageFiles": [
     "/home/wendel/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.aspnetcore.openapi/8.0.4/microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",

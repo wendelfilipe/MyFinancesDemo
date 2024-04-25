@@ -5669,11 +5669,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain.Tests/Backend.Domain.Tests.csproj",
+      "projectUniqueName": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain.Tests/Backend.Domain.Tests.csproj",
       "projectName": "Backend.Domain.Tests",
-      "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain.Tests/Backend.Domain.Tests.csproj",
+      "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain.Tests/Backend.Domain.Tests.csproj",
       "packagesPath": "/home/wendel/.nuget/packages/",
-      "outputPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain.Tests/obj/",
+      "outputPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/wendel/.nuget/NuGet/NuGet.Config"
@@ -5688,8 +5688,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain/Backend.Domain.csproj": {
-              "projectPath": "/home/wendel/Documentos/Projetos/MyFinances/Backend/Backend.Domain/Backend.Domain.csproj"
+            "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/Backend.Domain.csproj": {
+              "projectPath": "/home/wendel/Documentos/Projetos/MyFinancesDemo/Backend/Backend.Domain/Backend.Domain.csproj"
             }
           }
         }
